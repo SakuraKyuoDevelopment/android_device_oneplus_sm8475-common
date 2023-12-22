@@ -388,9 +388,7 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@2.1-service.multihal \
     libsensorndkbridge \
     sensors.dynamic_sensor_hal \
-    sensors.oplus \
-    vendor.chen.aidl.syshelper-service \
-    als_correction_service.oppo_OP4A89
+    sensors.oplus
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
