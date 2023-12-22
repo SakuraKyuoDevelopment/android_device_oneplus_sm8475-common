@@ -10,13 +10,14 @@ constexpr const char* RO_PROP_SOURCES[] = {
 };
 
 constexpr const char* MODELS[] = {
-        "CPH2413", "CPH2415", "CPH2417", "CPH2419", "PGP110",
+        "CPH2413", "CPH2415", "CPH2417", "CPH2419", "CPH2487", "PGP110",
 };
 
 // TO-DO make a map
 constexpr const char* DEVICES[] = {
         "OP5551L1",
         "OP5552L1",
+	"OP5961L1",
 };
 
 constexpr const char* BUILD_FINGERPRINT[] = {
@@ -24,5 +25,6 @@ constexpr const char* BUILD_FINGERPRINT[] = {
         "OnePlus/CPH2415/OP5552L1:13/SKQ1.221119.001/S.123ec2a_6b801_6ff30:user/release-keys",
         "OnePlus/CPH2417/OP5552L1:13/SKQ1.221119.001/S.123ec2a_6b801_6ff30:user/release-keys",
         "OnePlus/CPH2419/OP5552L1:13/SKQ1.221119.001/S.123ec2a_6b801_6ff30:user/release-keys",
+        "OnePlus/CPH2487/OP5961L1:13/SKQ1.221119.001/T.R4T3.1057738-62b8-3b9:user/release-keys",
         "OnePlus/PGP110/OP5551L1:14/UP1A.230620.001/S.1317e36_a82b-2:user/release-keys",
 };
